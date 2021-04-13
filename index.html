@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warrior TV</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="icon" href="../Assets/Favicon.png" style="width: 5px; height: 15px" width="5px" height="25px">
+    <script src="https://kit.fontawesome.com/83d1bb4779.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">
+            <img src="../Assets/Logo.png" alt="Logo">
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Tv Shows</a></li>
+            <li><a href="#">Saved Movies / Shows</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Find Your Favorites" id="search" autocomplete="off">
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+    </nav>
+    <section id="main">
+        <h1 class="showcase-heading">Showcase</h1>
+
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280/fev8UFNFFYsD5q7AcYS8LyTzqwl.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-b">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280/8tNX8s3j1O0eqilOQkuroRLyOZA.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-c">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280/7KL4yJ4JsbtS1BNRilUApLvMnc5.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-d">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280//drulhSX7P5TQlEMQZ3JoXKSDEfz.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-e">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280//lOSdUkGQmbAl5JQ3QoHqBZUbZhC.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-f">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280//6TPZSJ06OEXeelx1U1VIAt0j9Ry.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-g">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280//vfuzELmhBjBTswXj2Vqxnu5ge4g.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-h">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280//fRrpOILyXuWaWLmqF7kXeMVwITQ.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-i">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280//nz8xWrTKZzA5A7FgxaM4kfAoO1W.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-j">
+                <div class="showcase-box">
+                    <img src="https://image.tmdb.org/t/p/w1280//jeAQdDX9nguP6YOX6QSWKDPkbBo.jpg" alt="">
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id="search_res">
+        <h2 class="search-heading">Search Results</h2>
+
+        <div id="search-results">
+            <div id="mainnn">
+
+            </div>
+        </div>
+        <button class="btn-hide" onclick="hide()">Hide</button>
+    </section>
+    <section id="latest">
+        <h2 class="latest-heading">Latest Movies</h2>
+
+        <div id="scrollll">
+            <div id="mainn">
+
+            </div>
+        </div>
+    </section>
+    <div class="movies-heading">
+        <h2>Action Packed Movies</h2>
+    </div>
+    <section id="movies-list">
+        
+    </section>
+
+    <footer>
+        <p>Copyright &#169 2021 Matthew Lutz</p>
+    </footer>
+    <link rel="stylesheet" href="./lightslider.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="./lightslider.js"></script>
+    <script src="../Backend/index.js"></script>
+</body>
+</html>
